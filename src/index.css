@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --poker-felt: #35654d;
+  --poker-felt-dark: #2a5340;
+}
+
+body {
+  @apply bg-gray-900 text-white;
+}
